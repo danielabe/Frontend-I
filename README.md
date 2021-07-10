@@ -7,6 +7,6 @@ https://danielabe.github.io/Frontend-I/
 
 ## Proyectos de la materia
 
-🌸 <a href="https://danielabe.github.io/Frontend-I/clase-5">Receta Lemon Pie</a>
+🌸 <a href="https://danielabe.github.io/Frontend-I/lemon-pie">Receta Lemon Pie</a>
 
 🌸 <a href="https://danielabe.github.io/Frontend-I/petshop">Pet Shop</a>
