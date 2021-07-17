@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+ 
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background: #F0A83E;
+}
+
+.language-coin {
+    height: 20px;
+    padding: 4px 0 0 0;
+    font-size: 10px;
+    font-weight: 400;
+    background: #222222;
+    color: #F3F3F3;
+}
+
+.language-coin p {
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    color: #3C2313;
+}
+
+.cat-dog {
+    color: #FFFFFF;
+}
+
+nav a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+.nav-container {
+    height: 62px;
+}
+
+/* Main */
+.main-section {
+    height: 409px;
+    background: #F0A83E url('../img/bowl-and-pet-daities-on-green-background\ 1.svg') no-repeat;
+    background-size: cover;
+}
+
+.welcome-title {
+    width: 345px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #3C2313;
+}
+
+.comederos-link {
+    width: 95px;
+    padding: 15px 23px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    background: #F0A83E;
+    color: #FFFFFF;
+}
+
+.main-section p {
+    padding: 12px 0 24px 0;
+}
+
+.paw-image {
+    margin: 24px auto 10px auto;
+    display: block;
+}
+
+.products-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+.products-links {
+    /* margin-bottom: 20px; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.products-links a {
+    color: #666666;
+}
+
+.card {
+    display: inline-block;
+    width: 265px;
+    height: 312px;
+    text-align: center;
+    background-color: #FBFAF6;
+}
+
+.cards-container {
+    margin-top: 49px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #3C2313;
+
+}
+
+.foot-top {
+    padding: 18px 0;
+    font-size: 20px;
+    font-weight: 700;
+    background: #F0A83E;
+    color: #FFFFFF;
+}
+
+.foot-icon {
+    padding: 8px;
+    font-size: 42px;
+    border-radius: 30px;
+    background-color: #8A8787;
+    color:#FFFFFF;
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.contact-desc {
+    font-size: 10px;
+    font-weight: 700;
+    color: #8A8787;
+}
+
+.copyright {
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    background: #222222;
+    color: #FFFFFF;
+}
