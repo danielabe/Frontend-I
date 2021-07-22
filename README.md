@@ -16,3 +16,5 @@ https://danielabe.github.io/Frontend-I/
 🌸 <a href="https://danielabe.github.io/Frontend-I/personal-cv">Mi CV</a>
 
 🌸 <a href="https://danielabe.github.io/Frontend-I/heroes">Heroes</a>
+
+🌸 <a href="https://danielabe.github.io/Frontend-I/pizzeria">Pizzería</a>

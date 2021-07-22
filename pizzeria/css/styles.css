@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-right: 42px;
+}
+
+.logo {
+    padding-right: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(57, 178, 74);
+}
+
+.and {
+    color: #F3F3F3;
+}
+
+.front {
+    color: rgb(252, 32, 12);
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    font-size: 16px;
+    padding: 0 7px;
+}
+
+.nav-item a{
+    color: #F3F3F3;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 490px;
+    height: 350px;
+    margin: 35px 5px 35px 0;
+    border-radius: 5px;
+}
+
+.main-picture {
+    height: 350px;
+    background: orange url('../img/delivery.svg') no-repeat;
+}
+
+.main-text {
+    padding: 20px 0 0 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FC200C;
+}
+
+.comprando {
+    color: #F3F3F3;
+}
+
+.podio-text {
+    margin: 26px 0 58px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #FC200C;
+
+}
+
+.top-pizza {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-pizzas-title {
+    padding: 0 0 15px 18px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pizza-item {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: #222222
+}
+
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+    padding-left: 14px;
+}
+
+.pizza {
+    color: rgb(57, 178, 74);
+}
