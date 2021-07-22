@@ -17,4 +17,4 @@ https://danielabe.github.io/Frontend-I/
 
 🌸 <a href="https://danielabe.github.io/Frontend-I/heroes">Heroes</a>
 
-🌸 <a href="https://danielabe.github.io/Frontend-I/pizzeria">Pizzería</a>
+🌸 <a href="https://danielabe.github.io/Frontend-I/pizzeria/">Pizzería</a>
