@@ -11,26 +11,49 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
 /* Header */
 header {
     background: #F0A83E;
 }
 
-.language-coin {
-    height: 20px;
-    padding: 4px 0 0 0;
+.discount-language-coin {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 40px 4px 90px;
     font-size: 10px;
     font-weight: 400;
     background: #222222;
     color: #F3F3F3;
 }
 
-.language-coin p {
-    display: inline-block;
+.language-coin {
+    display: flex;
+}
+
+.language-coin > p {
+    padding: 0 12px 0 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 40px 19px 42px;
+}
+
+.logo {
+    display: flex;
 }
 
 h1 {
-    display: inline-block;
     color: #3C2313;
 }
 
@@ -39,37 +62,39 @@ h1 {
 }
 
 nav a{
+    display: inline-block;
+    padding: 10px;
     font-size: 13px;
     font-weight: 400;
     color: #FFFFFF;
-
 }
 
 nav ul li{
     display: inline-block;
 }
 
-nav {
-    display: inline-block;
-    float: right;
-}
-
-.nav-container {
-    height: 62px;
+.fa-paw {
+    padding-right: 2px;
 }
 
 /* Main */
 .main-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     height: 409px;
     background: #F0A83E url('../img/bowl-and-pet-daities-on-green-background\ 1.svg') no-repeat;
     background-size: cover;
 }
 
+.welcome-container {
+    padding-right: 12px;
+    text-align: center;
+}
+
 .welcome-title {
-    width: 345px;
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
     font-size: 30px;
     font-weight: 400;
     background-color: #FFFFFF;
@@ -77,10 +102,8 @@ nav {
 }
 
 .comederos-link {
-    width: 95px;
     padding: 15px 23px;
     border-radius: 5px;
-    text-align: center;
     font-size: 16px;
     font-weight: 400;
     background: #F0A83E;
@@ -92,12 +115,13 @@ nav {
 }
 
 .paw-image {
-    margin: 24px auto 10px auto;
     display: block;
+    margin: 0 auto;
+    padding: 24px 10px 5px;
 }
 
 .products-title {
-    margin-bottom: 20px;
+    padding: 5px 10px 10px;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -105,49 +129,157 @@ nav {
 }
 
 .products-links {
-    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 25px;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
 }
 
 .products-links a {
+    padding: 0 15px;
     color: #666666;
 }
 
+.cards-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 39px;
+}
+
 .card {
-    display: inline-block;
     width: 265px;
     height: 312px;
+    margin: 0 11px;
     text-align: center;
     background-color: #FBFAF6;
 }
 
-.cards-container {
-    margin-top: 49px;
+.product {
+    color: #3C2313;
+}
+
+.price {
+    color: #F0A83E;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
     text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 450px;
+    padding: 39px 0 38px;
+    color: #3C2313;
+
+}
+
+.contact-form h2 {
+    padding: 0 0 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.contact-form input {
+    padding: 14px;
+    margin: 5px 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #3C2313;
+    outline: none;
+    border: none;
+}
+
+.contact-form input::placeholder {
+    font-size: 9px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+.btn-container {
+    padding: 41px 0 75px;
+}
+
+.btn-container button {
+    padding: 8px 23px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.reset {
+    background-color: #8A8787;
+}
+
+.send {
+    background-color: #F0A83E;
 }
 
 /* Footer */
 footer {
     background: #3C2313;
-
 }
 
 .foot-top {
-    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 47px 10px 23px;
     font-size: 20px;
     font-weight: 700;
     background: #F0A83E;
     color: #FFFFFF;
 }
 
+.foot-top input {
+    padding: 14px 148px 14px 8px;
+    font-size: 9px;
+    font-weight: 400;
+    background: #FFFFFF;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.foot-top input::placeholder {
+    color: #A0A0A0;
+}
+
+.foot-top button {
+    padding: 12px;
+    font-size: 9px;
+    background: #3C2313;
+    border-radius: 15px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.foot-top i {
+    padding: 0 10px 0 0;
+}
+
 .foot-icon {
-    padding: 8px;
-    font-size: 42px;
+    padding: 13px;
+    font-size: 38px;
     border-radius: 30px;
     background-color: #8A8787;
     color:#FFFFFF;
+}
+
+.foot-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 74px;
 }
 
 .contact {
@@ -157,10 +289,30 @@ footer {
 
 }
 
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.contact-item i {
+    margin-right: 25px;
+}
+
 .contact-desc {
     font-size: 10px;
     font-weight: 700;
     color: #8A8787;
+}
+
+.logo h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.cat-dog-foot {
+    color: #F0A83E;
 }
 
 .copyright {

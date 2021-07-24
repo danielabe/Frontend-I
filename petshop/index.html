@@ -13,15 +13,18 @@
 
 <body>
     <header>
-        <div class="language-coin">
+        <div class="discount-language-coin">
             <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>ARG$</p>
+            <div class="language-coin">
+                <p>Español</p>
+                <p>ARG$</p>
+            </div>
         </div>
-        <div const="nav-container">
-            <a href="#">
-                <h1><img src="img/Cat.svg" alt="Gatito">Front<span class="cat-dog">Cat&Dog</span><img src="img/Dog.svg" alt="Perrito"></h1>
-                        
+        <div class="nav-container">
+            <a class="logo" href="#">
+                <img src="img/Cat.svg" alt="Gatito">
+                <h1>Front<span class="cat-dog">Cat&Dog</span></h1>
+                <img src="img/Dog.svg" alt="Perrito"> 
             </a>
             <nav>
                 <ul>
@@ -35,9 +38,11 @@
     </header>
     <main>
         <section class="main-section">
-            <h2 class="welcome-title">¡Es un placer tenerte aquí! </h2>
-            <p>¡Comederos en descuento!</p>
-            <a class="comederos-link" href="#">COMEDEROS</a>
+            <div class="welcome-container">
+                <h2 class="welcome-title">¡Es un placer tenerte aquí! </h2>
+                <p>¡Comederos en descuento!</p>
+                <a class="comederos-link" href="#">COMEDEROS</a>
+            </div>
         </section>
         <section>
             <img class="paw-image" src="img/pawprint 1.svg" alt="Patita">
@@ -50,40 +55,71 @@
             <div class="cards-container">
                 <div class="card"> 
                     <img src="img/churrasquito.svg" alt="Churrasquito">
-                    <p>Juguete Churrasquito</p>
-                    <p>$150</p>
+                    <p class="product">Juguete Churrasquito</p>
+                    <p class="price">$150</p>
                 </div>
                 <div class="card">
                     <img src="img/comedero.svg" alt="Comedero">
-                    <p>Comedero para perro</p>
-                    <p>$250</p>
+                    <p class="product">Comedero para perro</p>
+                    <p class="price">$250</p>
                 </div>
                 <div class="card">
                     <img src="img/Huesito.svg" alt="Huesito">
-                    <p>Juguete Huesito</p>
-                    <p>$650</p>
+                    <p class="product">Juguete Huesito</p>
+                    <p class="price">$650</p>
                 </div>
             </div>
+        </section>
+        <section class="contact-section">
+            <form class="contact-form" action="">
+                <h2>Contáctanos</h2>
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="text" placeholder="Ingresá tu correo electrónico">
+                <input type="text" placeholder="Teléfono">
+                <div class="btn-container">
+                    <button class="reset">Resetear</button>
+                    <button class="send">Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
         <div class="foot-top">
             <p><i class="far fa-envelope"></i>Suscríbete para más novedades</p>
+            <div>
+                <input type="text" placeholder="Ingresá tu correo electronico">
+                <button>Suscribirme</button>
+            </div>
         </div>
-        <div>
-            <i class="fas fa-map-marker-alt foot-icon"></i>
-            <p class="contact">Localidad</p>
-            <p class="contact-desc">Calle - provincia</p>
-        </div>
-        <div>
-            <i class="fas fa-phone-alt foot-icon"></i>
-            <p class="contact">Teléfono</p>
-            <p class="contact-desc">Número de teléfono</p>
-        </div>
-        <div>
-            <i class="far fa-envelope foot-icon"></i>
-            <p class="contact">Correo Electrónico</p>
-            <p class="contact-desc">Dirección de correo</p>
+        <div class="foot-center">
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <i class="fas fa-map-marker-alt foot-icon"></i>
+                    <div>
+                        <p class="contact">Localidad</p>
+                        <p class="contact-desc">Calle - provincia</p>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <i class="fas fa-phone-alt foot-icon"></i>
+                    <div>
+                        <p class="contact">Teléfono</p>
+                        <p class="contact-desc">Número de teléfono</p>
+                    </div>
+                </li>
+                <li class="contact-item">
+                    <i class="far fa-envelope foot-icon"></i>
+                    <div>
+                        <p class="contact">Correo Electrónico</p>
+                        <p class="contact-desc">Dirección de correo</p>
+                    </div>
+                </li>
+            </ul>
+            <a class="logo" href="#">
+                <img src="img/Cat.svg" alt="Gatito">
+                <h2>Front<span class="cat-dog-foot">Cat&Dog</span></h1>
+                <img src="img/Dog.svg" alt="Perrito"> 
+            </a>
         </div>
         <p class="copyright">Todos los derechos reservados</p>
     </footer>
