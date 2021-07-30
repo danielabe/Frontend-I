@@ -106,7 +106,7 @@ main {
 
 .avatar {
     position: absolute;
-    top: -70px;
+    bottom: 475px;
     width: 38%;
     border-radius: 50%;
     box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px 0px;
@@ -126,6 +126,7 @@ h3 {
 }
 
 .see-more {
+    display: inline-block;
     padding: 15px 37px;
     margin: 16px 0 68px;
     font-size: 1.2rem;
