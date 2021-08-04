@@ -49,6 +49,12 @@ header {
     padding: 19px 40px 19px 42px;
 }
 
+.hamburger {
+    display: none;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
 .logo {
     display: flex;
 }
@@ -268,11 +274,17 @@ footer {
 }
 
 .foot-icon {
-    padding: 13px;
-    font-size: 38px;
-    border-radius: 30px;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50px;
     background-color: #8A8787;
     color:#FFFFFF;
+    border: 5px solid #786960;
+}
+
+.location-icon {
+    border: 5px solid #786960;
+    padding: 12px 16px;
 }
 
 .foot-center {
@@ -321,4 +333,18 @@ footer {
     text-align: center;
     background: #222222;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .discount-language-coin {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
