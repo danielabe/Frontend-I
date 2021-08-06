@@ -8,25 +8,43 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="body-login-register">
-    <div class="info">
-        <p>20% de descuento en todos los productos!</p>
-    </div>
     <header>
+        <div class="info">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
         <div class="top-header">
-            <img src="img/Logo.svg" alt="Logo">
+            <a href="index.html"><img src="img/Logo.svg" alt="Logo"></a>
             <h1>Card Super Heroes</h1>
         </div>
-        <div class="bottom-header">
-            <nav>
-                <ul>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="register.html">Registrarme</a></li>
-                    <li><a href="login.html">Ingresar</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
-    <main></main>
+    <main class="main-lg-rg">
+        <h2 class="lg-rg-title">Registro</h2>
+        <form class="login-form" action="" method="POST">
+            <div class="lb-inp">
+                <label for="">Nombre y Apellido</label>
+                <input type="text">
+            </div>
+            <div class="lb-inp">
+                <label for="">Email</label>
+                <input type="email">
+            </div>
+            <div class="lb-inp">
+                <label for="">Contraseña</label>
+                <input type="password">
+            </div>   
+            <label for="">Pais</label>
+            <select name="" id="">
+                <option value="Argentina">Argentina</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Brasil">Brasil</option>
+            </select>     
+            <div class="btns-container">
+                <input type="reset" value="Resetear">
+                <input type="submit" value="Registrar">
+            </div>    
+            <p>¿Ya tenés una cuenta? <a href="login.html">Ingresá</a></p>
+        </form>
+    </main>
     <footer>
         <p>Todos los derechos reservados a FRONT END 1</p>
         <img class="github" src="img/Github.svg" alt="Github">
