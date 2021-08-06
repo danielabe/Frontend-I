@@ -26,7 +26,8 @@
 }
 
 .lg-rg-title {
-    font-size: 4.5rem;
+    justify-self: flex-start;
+    font-size: 4rem;
     font-weight: 700;
     color: #333333;
 }
@@ -52,7 +53,7 @@ input[type="text"], input[type="password"],
 input[type="email"], select {
     width: 100%;
     /* height: 40px; */
-    padding: 11px;
+    padding: 9px;
     border: 1.53407px solid #000000;
     outline: none;
 } 
@@ -63,7 +64,7 @@ input[type="email"], select {
 
 input[type="submit"], input[type="reset"] {
     width: 100%;
-    padding: 5px 0;
+    padding: 8px 0;
     margin: 30px 0 20px;
     font-size: 0.9rem;
     font-weight: 700;
@@ -86,6 +87,10 @@ input[type="submit"], input[type="reset"] {
     color: #FFFFFF;
 }
 
+textarea {
+    width: 100%;
+    height: 100px;
+}
 .card {
     display: inline-block;
     width: 22%;
@@ -190,6 +195,68 @@ h3 {
     border-radius: 50%;
     color: #FFFFFF;
     background-color: #00669F;
+    cursor: pointer;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.main-harley {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    /* position: relative; */
+    /* height: calc(100vh - 8.8rem - 24px); */
+    background: rgb(197, 55, 126) url('../img/harley-bg.svg') no-repeat;
+    background-size: cover;
+}
+
+.main-harley>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 35%;
+    min-width: 300px;
+    /* height: 400px; */
+    border-radius: 45px;
+    background-color: #f3f3f3;
+}
+
+.guns {
+    padding: 0 0 5rem;
+}
+
+.heart {
+    position: absolute;
+}
+
+.main-harley p {
+    padding: 10px 20px 20px;
+    font-size: 0.9rem;
+}
+
+.main-harley h2 {
+    padding-top: 1.875rem;
+}
+
+.avatar-see-more {
+    position: absolute;
+    top: -60px;
+    border-radius: 50%;
+}
+
+.come-back {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center ;
+    background-color: #2C0187;
+    color: #F3F3F3;
+    border-radius: 0 0 45px 45px;
     cursor: pointer;
 }
 
