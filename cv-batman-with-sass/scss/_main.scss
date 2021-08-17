@@ -1,0 +1,30 @@
+/* ***** Main ***** */
+
+main {
+    .sections-container {
+        margin: 117px auto 163px auto;
+        width: 72%;
+    }
+    .subtitle {
+        height: 30px;
+        padding: 0 0 0 9px;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 8px;
+        background-color: $secondary-color;
+        color: $primary-color;
+    }
+    ul {
+        padding: 0 0 0 60px;
+        li {
+            padding: 5px 0;
+        }
+    }
+    span {
+        font-weight: bold;
+        font-style: italic;
+    }
+    dl {
+        padding: 0 0 0 60px;
+    }
+}

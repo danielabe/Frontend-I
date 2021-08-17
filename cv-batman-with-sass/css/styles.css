@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Times New Roman';
+}
+
+/* ***** Header ***** */
+header .batman-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 189px;
+  background-color: #E5E5E5;
+}
+
+header h1 {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 35px;
+  letter-spacing: 10px;
+  background-color: #C4C4C4;
+  color: #005677;
+}
+
+/* ***** Main ***** */
+main .sections-container {
+  margin: 117px auto 163px auto;
+  width: 72%;
+}
+
+main .subtitle {
+  height: 30px;
+  padding: 0 0 0 9px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 8px;
+  background-color: #C4C4C4;
+  color: #005677;
+}
+
+main ul {
+  padding: 0 0 0 60px;
+}
+
+main ul li {
+  padding: 5px 0;
+}
+
+main span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+main dl {
+  padding: 0 0 0 60px;
+}
+
+/* ***** Footer ***** */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #005677;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=styles.css.map */

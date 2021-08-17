@@ -11,7 +11,7 @@ https://danielabe.github.io/Frontend-I/
 
 🌸 <a href="https://danielabe.github.io/Frontend-I/petshop">Pet Shop</a>
 
-🌸 <a href="https://danielabe.github.io/Frontend-I/cv-batman">CV Batman</a>
+🌸 <a href="https://danielabe.github.io/Frontend-I/cv-batman-with-sass">CV Batman</a>
 
 🌸 <a href="https://danielabe.github.io/Frontend-I/personal-cv">Mi CV</a>
 
