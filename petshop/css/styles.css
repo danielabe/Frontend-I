@@ -196,17 +196,21 @@ nav ul li::before {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0.5rem;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
+    width: 100%;
     max-width: 450px;
     padding: 0.4rem 0 0.4rem;
     color: #3C2313;
+}
 
+.contact-form>input {
+    width: 80%;
 }
 
 .contact-form h2 {
@@ -230,6 +234,7 @@ input[placeholder]::placeholder {
 }
 
 .btn-container {
+    align-self: stretch;
     padding: 2.25rem 0 2.2875rem;
 }
 
@@ -237,7 +242,7 @@ input[type="reset"], input[type="submit"] {
     width: 32%;
     padding: 0.5rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 2rem;
     font-size: 1rem;
     color: #FFFFFF;
     cursor: pointer;
@@ -284,6 +289,7 @@ footer {
     display: flex;
     align-items: center;
     width: 33%;
+
     gap: 0.5rem;
 }
 
@@ -421,6 +427,21 @@ footer {
 
     .foot-center {
         flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    input[type="reset"], input[type="submit"] {
+        width: 49%;
+        padding: 0.8rem 0.5rem;
+    }
+    .foot-top {
+        flex-direction: column;
+        padding: 14px 29px 10px 23px;
+    }
+    .foot-top>p {
+        align-self: flex-start;
+    }
+    .search {
+        width: 70%;
     }
 }
 
@@ -428,5 +449,8 @@ footer {
     .card {
         width: 58vw;
         height: 70vw;
+    }
+    .search {
+        width: 95%;
     }
 }
