@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    .hamburguer {
+        display: none;
+        font-size: 30px;
+        color: $hamburger-menu;
+        cursor: pointer;
+        @media screen and($tablet-breakpoint) {
+            display: block;
+        }
+    }
+    nav {
+        @media screen and($tablet-breakpoint) {
+            display: none;
+        }
+    }
+}

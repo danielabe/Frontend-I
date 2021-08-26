@@ -1,0 +1,17 @@
+%card {
+    width: 25%;
+    min-width: 260px;
+    max-width: 300px;
+    height: 220px;
+    padding: 1.5rem;
+    background-color: $bg-secondary;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+%number {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    box-shadow: $bg-primary -3px 0px 1px 1px;
+}
