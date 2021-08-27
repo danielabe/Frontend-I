@@ -1,0 +1,14 @@
+@mixin paragraph($size, $l-height, $let-spacing) {
+    font-size: $size;
+    line-height: $l-height;
+    letter-spacing: $let-spacing;
+}
+@mixin rectangle($height) {
+    display: inline-block;
+    height: $height;
+    background-color: $bg-primary;
+}
+@mixin img-size($w, $h) {
+    width: $w;
+    height: $h;
+}

@@ -15,3 +15,8 @@
     border-radius: 50%;
     box-shadow: $bg-primary -3px 0px 1px 1px;
 }
+%flex-between-padding {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}

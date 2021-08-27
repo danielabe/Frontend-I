@@ -20,6 +20,16 @@ main .section-card > div p:nth-child(1), footer .fab {
           box-shadow: #03faee -3px 0px 1px 1px;
 }
 
+header, footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -53,16 +63,6 @@ a {
 
 img {
   max-width: 100%;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1rem;
 }
 
 header .hamburguer {
@@ -159,7 +159,7 @@ main .section-banner .banner-text > div {
 main .section-banner .banner-text a {
   padding: 10px;
   background-color: #03faee;
-  border: grey dotted 1px;
+  border: #8b8b8b dotted 1px;
   border-radius: 8px;
 }
 
@@ -193,9 +193,7 @@ main .section-card {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-column-gap: 5%;
-          column-gap: 5%;
-  row-gap: 30px;
+  gap: 30px 5%;
   padding: 2rem 0;
 }
 
@@ -211,8 +209,7 @@ main .section-card > div p:nth-child(1) {
 }
 
 main .section-card > div h3 {
-  padding-top: 1rem;
-  padding-left: 0.5rem;
+  padding: 1rem 0 0 0.5rem;
 }
 
 main .section-card > div h3 span {
@@ -226,16 +223,9 @@ main .section-card > div p:nth-child(3) {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem;
 }
 
 footer .fab {

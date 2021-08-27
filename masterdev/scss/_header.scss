@@ -1,7 +1,5 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+    @extend %flex-between-padding;
     .hamburguer {
         display: none;
         font-size: 30px;
