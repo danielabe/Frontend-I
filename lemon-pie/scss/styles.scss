@@ -14,20 +14,29 @@ main {
     .main-section {
         display: flex;
         flex-wrap: wrap;
-        img {
-            background-color: rgb(240, 200, 90);
-            width: 40%;
+        /* @media screen and (max-width: 999px) {
+            gap: 20px;
+        } */
+        .img-container {
+            width: 50%;
+            height: 288px;
+            padding: 15px 20px 15px 20px;
             min-width: 450px;
-            margin: 15px 20px 15px 20px;
             @media screen and (max-width: 999px) {
-                width: 70%;
+                width: 100%;
                 min-width: auto;
+                height: 350px;
             }
             @media screen and (max-width: 768px) {
-                width: calc(100% - 40px);
+                height: 250px;
             }
         }
-        div {
+        .bg-img {
+            height: 100%;
+            background: rgb(240, 200, 90) url('/img/lemon-pie\ 1.svg') no-repeat;
+            background-size: cover;
+        }
+        .description {
             width: 50%;
             @media screen and (max-width: 999px) {
                 width: 100%;
@@ -55,8 +64,8 @@ main {
         padding: 0 10px 10px 45px;
     }
     ol {
-        width: 95%;
-        padding: 0 10px 10px 45px;
+        width: 100%;
+        padding: 0 20px 10px 45px;
         text-align: justify;
         li {
             padding-bottom: 10px;

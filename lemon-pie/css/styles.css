@@ -15,34 +15,44 @@ main .main-section {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  /* @media screen and (max-width: 999px) {
+            gap: 20px;
+        } */
 }
 
-main .main-section img {
-  background-color: #f0c85a;
-  width: 40%;
+main .main-section .img-container {
+  width: 50%;
+  height: 288px;
+  padding: 15px 20px 15px 20px;
   min-width: 450px;
-  margin: 15px 20px 15px 20px;
 }
 
 @media screen and (max-width: 999px) {
-  main .main-section img {
-    width: 70%;
+  main .main-section .img-container {
+    width: 100%;
     min-width: auto;
+    height: 350px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  main .main-section img {
-    width: calc(100% - 40px);
+  main .main-section .img-container {
+    height: 250px;
   }
 }
 
-main .main-section div {
+main .main-section .bg-img {
+  height: 100%;
+  background: #f0c85a url("/img/lemon-pie 1.svg") no-repeat;
+  background-size: cover;
+}
+
+main .main-section .description {
   width: 50%;
 }
 
 @media screen and (max-width: 999px) {
-  main .main-section div {
+  main .main-section .description {
     width: 100%;
   }
 }
@@ -73,8 +83,8 @@ main ul {
 }
 
 main ol {
-  width: 95%;
-  padding: 0 10px 10px 45px;
+  width: 100%;
+  padding: 0 20px 10px 45px;
   text-align: justify;
 }
 
