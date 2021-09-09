@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header img {
+  padding: 15px 15px 15px 20px;
+}
+
+main .main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .main-section img {
+  width: 50%;
+  min-width: 490px;
+  padding: 15px 20px 15px 20px;
+}
+
+@media screen and (max-width: 999px) {
+  main .main-section img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .main-section img {
+    width: 100%;
+  }
+}
+
+main .main-section div {
+  width: 50%;
+}
+
+@media screen and (max-width: 999px) {
+  main .main-section div {
+    width: 100%;
+  }
+}
+
+main h1 {
+  padding: 15px 15px 15px 20px;
+  font-size: 50px;
+}
+
+main p {
+  width: 100%;
+  padding: 0 20px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+main h2 {
+  padding: 12px 12px 12px 20px;
+}
+
+main h3 {
+  padding: 0 10px 10px 20px;
+}
+
+main ul {
+  padding: 0 10px 10px 45px;
+}
+
+main ol {
+  width: 95%;
+  padding: 0 10px 10px 45px;
+  text-align: justify;
+}
+
+main ol li {
+  padding-bottom: 10px;
+}
+
+footer p {
+  padding: 15px;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
