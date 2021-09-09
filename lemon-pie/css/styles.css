@@ -18,9 +18,10 @@ main .main-section {
 }
 
 main .main-section img {
-  width: 50%;
-  min-width: 490px;
-  padding: 15px 20px 15px 20px;
+  background-color: #f0c85a;
+  width: 40%;
+  min-width: 450px;
+  margin: 15px 20px 15px 20px;
 }
 
 @media screen and (max-width: 999px) {
@@ -32,7 +33,7 @@ main .main-section img {
 
 @media screen and (max-width: 768px) {
   main .main-section img {
-    width: 100%;
+    width: calc(100% - 40px);
   }
 }
 

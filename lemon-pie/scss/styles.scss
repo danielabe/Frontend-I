@@ -15,15 +15,16 @@ main {
         display: flex;
         flex-wrap: wrap;
         img {
-            width: 50%;
-            min-width: 490px;
-            padding: 15px 20px 15px 20px;
+            background-color: rgb(240, 200, 90);
+            width: 40%;
+            min-width: 450px;
+            margin: 15px 20px 15px 20px;
             @media screen and (max-width: 999px) {
                 width: 70%;
                 min-width: auto;
             }
             @media screen and (max-width: 768px) {
-                width: 100%;
+                width: calc(100% - 40px);
             }
         }
         div {
