@@ -15,9 +15,6 @@ main .main-section {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  /* @media screen and (max-width: 999px) {
-            gap: 20px;
-        } */
 }
 
 main .main-section .img-container {
