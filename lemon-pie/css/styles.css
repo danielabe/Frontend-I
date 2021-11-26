@@ -40,7 +40,7 @@ main .main-section .img-container {
 
 main .main-section .bg-img {
   height: 100%;
-  background: #f0c85a url("/img/lemon-pie 1.svg") no-repeat;
+  background: #f0c85a url("../img/lemon-pie1.svg") no-repeat;
   background-size: cover;
 }
 
