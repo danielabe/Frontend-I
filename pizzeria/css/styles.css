@@ -52,6 +52,12 @@ h1 {
     color: rgb(252, 32, 12);
 }
 
+.hamburger {
+    display: none;
+    font-size: 1.375rem;
+    color: #FFFFFF;
+}
+
 .nav-list {
     display: flex;
 }
@@ -69,6 +75,7 @@ h1 {
 /* main */
 main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #F3F3F3;
 }
@@ -141,4 +148,14 @@ footer {
 
 .pizza {
     color: rgb(57, 178, 74);
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }
