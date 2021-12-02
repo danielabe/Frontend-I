@@ -7,6 +7,10 @@ html, body, * {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .banner {
     background: pink url('../img/mountains.png') no-repeat 0px;
     background-size: cover;
@@ -24,14 +28,30 @@ html, body, * {
 }
 
 h1 {
-    height: 60px;
+    padding: 7px;
     text-align: center;
-    line-height: 60px;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 10px;
     background-color: rgb(168, 129, 168);
     color: #005677;
+}
+
+.link {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid #b27fa5;
+    text-align: center;
+    background-color: #d299c3;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: #d69cc4;
+}
+
+.link a {
+    color: #744361;
 }
 
 .subtitle {
@@ -81,4 +101,25 @@ footer {
     font-size: 25px;
     padding-left: 10px;
     color: #764c77;
+}
+
+@media screen and (min-width: 580px) {
+    .links-list {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .link {
+        background-color: white;
+        border: none;
+    }
+
+    .link:hover {
+        background-color: white;
+    }
+
+    .link a {
+        color: #5a4552;
+        font-size: 14px;
+    }
 }
