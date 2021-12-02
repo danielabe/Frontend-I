@@ -55,18 +55,21 @@ h1 {
 }
 
 .subtitle {
-    height: 30px;
+    /* height: 30px; */
     padding: 0 0 0 9px;
+    margin: 20px 0 10px;
     font-size: 17px;
     line-height: 30px;
-    letter-spacing: 8px;
+    /* letter-spacing: 8px; */
     background-color: rgb(168, 129, 168);
     color: #005677;
 }
 
 .sections-container {
-    margin: 117px auto 163px auto;
-    width: 72%;
+    /* margin: 117px auto 163px auto; */
+    /* width: 72%; */
+    margin: 60px auto 100px auto;
+    width: 90%;
 }
 
 span {
@@ -75,7 +78,7 @@ span {
 }
 
 .personal-data {
-    padding: 0 0 0 60px;
+    padding: 0 0 0 30px;
 }
 
 .personal-data-item {
@@ -83,19 +86,21 @@ span {
 }
 
 dl {
-    padding: 0 0 0 60px;
+    padding: 0 0 0 15px;
 }
 
 footer {
-    height: 37px;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
     text-align: center;
     background-color: rgb(168, 129, 168);
     color: #FFFFFF;
 }
 
-.foot-p {
+/* .foot-p {
     line-height: 37px;
-}
+} */
 
 .icon {
     font-size: 25px;
