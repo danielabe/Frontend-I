@@ -55,19 +55,15 @@ h1 {
 }
 
 .subtitle {
-    /* height: 30px; */
     padding: 0 0 0 9px;
     margin: 20px 0 10px;
     font-size: 17px;
     line-height: 30px;
-    /* letter-spacing: 8px; */
     background-color: rgb(168, 129, 168);
     color: #005677;
 }
 
 .sections-container {
-    /* margin: 117px auto 163px auto; */
-    /* width: 72%; */
     margin: 60px auto 100px auto;
     width: 90%;
 }
@@ -98,14 +94,21 @@ footer {
     color: #FFFFFF;
 }
 
-/* .foot-p {
-    line-height: 37px;
-} */
-
 .icon {
     font-size: 25px;
     padding-left: 10px;
     color: #764c77;
+}
+
+.about-me {
+    width: 95%;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.about-me p {
+    padding-top: 20px;
+    text-align: justify;
 }
 
 @media screen and (min-width: 580px) {
@@ -126,5 +129,18 @@ footer {
     .link a {
         color: #5a4552;
         font-size: 14px;
+    }
+
+    .subtitle {
+        letter-spacing: 8px;
+    }
+
+    .sections-container {
+        margin: 117px auto 163px auto;
+        width: 72%;
+    }
+
+    .about-me {
+        width: 72%;
     }
 }
