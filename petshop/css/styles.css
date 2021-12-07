@@ -224,6 +224,7 @@ input[placeholder] {
     margin: 0.3125rem 0;
     border-radius: 1rem;
     background-color: #3C2313;
+    color: #AB9C9C;
     outline: none;
     border: none;
 }
@@ -231,6 +232,7 @@ input[placeholder] {
 input[placeholder]::placeholder {
     font-size: 0.625rem;
     color: #FFFFFF;
+    color: #AB9C9C;
 }
 
 .btn-container {
@@ -451,6 +453,17 @@ footer {
         height: 70vw;
     }
     .search {
-        width: 95%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .search>input[type="text"] {
+        width: 100%;
+    }
+    .foot-top input[type="submit"] {
+        width: 100%;
+
+        padding: 0.875rem;
+    font-size: 0.5625rem;
     }
 }
