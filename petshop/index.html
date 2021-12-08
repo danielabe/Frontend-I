@@ -24,17 +24,24 @@
             <a class="logo" href="#">
                 <img src="img/Cat.svg" alt="Gatito">
                 <h1>Front<span class="cat-dog">Cat&Dog</span></h1>
-                <img src="img/Dog.svg" alt="Perrito"> 
+                <img src="img/Dog.svg" alt="Perrito">
             </a>
-            <i class="fas fa-bars hamburger"></i>
-            <nav>
-                <ul>
-                    <li><a href="#categorias">Categorías</a></li>
-                    <li><a href="#pets">Pets</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="#contactanos">Contactanos</a></li>
-                </ul>
-            </nav>
+
+            <div class="respmenu">
+                <input type="checkbox" id="btn-menu">
+                <label for="btn-menu">
+                    <i class="fas fa-bars hamburger"></i>
+                    <i class="fas fa-times"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="#categorias">Categorías</a></li>
+                        <li><a href="#pets">Pets</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contactanos">Contactanos</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -42,10 +49,10 @@
             <div class="welcome-container">
                 <h2 class="welcome-title">¡Es un placer tenerte aquí! </h2>
                 <p>¡Comederos en descuento!</p>
-                <a class="comederos-link" href="#">COMEDEROS</a>
+                <a class="comederos-link" href="#categorias">COMEDEROS</a>
             </div>
         </section>
-        <section class="destacados-section">
+        <section id="categorias" class="destacados-section">
             <img class="paw-image" src="img/pawprint 1.svg" alt="Patita">
             <h2 class="products-title">Productos Destacados</h2>
             <p class="products-links">
@@ -54,7 +61,7 @@
                 <a href="#">Comida</a>
             </p>
             <div class="cards-container">
-                <div class="card"> 
+                <div class="card">
                     <img src="img/churrasquito.svg" alt="Churrasquito">
                     <p class="product">Juguete Churrasquito</p>
                     <p class="price">$150</p>
@@ -71,7 +78,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-section">
+        <section id="contactanos" class="contact-section">
             <form class="contact-form" action="">
                 <h2>Contáctanos</h2>
                 <input type="text" placeholder="Nombre y Apellido">
@@ -92,7 +99,7 @@
                 <input type="submit" value="Suscribirme">
             </div>
         </div>
-        <div class="foot-center">
+        <div id="nosotros" class="foot-center">
             <ul class="contact-list">
                 <li class="contact-item">
                     <i class="fas fa-map-marker-alt foot-icon location-icon"></i>
@@ -119,7 +126,7 @@
             <a class="logo" href="#">
                 <img src="img/Cat.svg" alt="Gatito">
                 <h2>Front<span class="cat-dog-foot">Cat&Dog</span></h1>
-                <img src="img/Dog.svg" alt="Perrito"> 
+                    <img src="img/Dog.svg" alt="Perrito">
             </a>
         </div>
         <p class="copyright">Todos los derechos reservados</p>
