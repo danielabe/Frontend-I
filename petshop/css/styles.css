@@ -51,15 +51,16 @@ header {
 }
 
 .respmenu input[type="checkbox"] {
-    opacity: 0;
+    /* opacity: 0; */
+    /* display: none; */
 }
 
-.fa-bars, .fa-times {
+/* .fa-bars, .fa-times {
     display: none;
     text-align: end;
     font-size: 1.375rem;
     color: #FFFFFF;
-}
+} */
 
 .logo {
     display: flex;
@@ -393,6 +394,41 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    /* .fa-bars, .fa-times {
+        display: block;
+    }
+    nav ul {
+        height: 0px;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+    }
+    
+    body header .nav-container .respmenu .fa-bars {
+        display: block;
+    }
+    input[type="checkbox"]:checked ~ .label .fa-times {
+        display: inline-block;
+    }
+      
+    input[type="checkbox"]:checked ~ .fa-bars {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked ~ nav ul {
+        height: 224px;
+        width: 100%;
+        background-color: #0000EC;
+        transition: height 1s ease-in-out;
+    }
+
+    input[type="checkbox"]:not(:checked) ~ .fa-bars{
+        display: block;
+    }
+ */
+
+
+
     .discount-language-coin {
         display: none;
     }
@@ -405,13 +441,13 @@ footer {
         width: 0.8rem;
     }
 
-    nav {
+    /* nav {
         display: none;
-    }
+    } */
 
-    .fa-bars {
+    /* .fa-bars {
         display: block;
-    }
+    } */
 
     .welcome-container {
         display: flex;
