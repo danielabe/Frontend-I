@@ -1,53 +1,5 @@
 
- 
 /* Header */
-.respmenu input[type="checkbox"] {
-    /* opacity: 0; */
-    /* display: none; */
-}
-
-/* .fa-bars, .fa-times {
-    display: none;
-    text-align: end;
-    font-size: 1.375rem;
-    color: #FFFFFF;
-} */
-
-.logo {
-    display: flex;
-}
-
-h1 {
-    color: #3C2313;
-}
-
-.cat-dog {
-    color: #FFFFFF;
-}
-
-nav a{
-    display: inline-block;
-    padding: 0.625rem 0.625rem 0.625rem 0.3rem;
-    font-size: 0.8125rem;
-    font-weight: 400;
-    color: #FFFFFF;
-}
-
-nav ul li{
-    display: inline-block;
-}
- 
-nav ul li::before {
-    content: "\f1b0";
-    font-size: 0.9rem;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    color: #FFFFFF;
-}
-
-/* .fa-paw {
-    padding-right: 2px;
-} */
 
 /* Main */
 .main-section {
@@ -326,16 +278,6 @@ footer {
     color: #8A8787;
 }
 
-.logo h2 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #FFFFFF;
-}
-
-.cat-dog-foot {
-    color: #F0A83E;
-}
-
 .copyright {
     padding: 0.5rem;
     font-size: 0.625rem;
@@ -345,61 +287,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    /* .fa-bars, .fa-times {
-        display: block;
-    }
-    nav ul {
-        height: 0px;
-        overflow: hidden;
-        position: absolute;
-        right: 0;
-    }
-    
-    body header .nav-container .respmenu .fa-bars {
-        display: block;
-    }
-    input[type="checkbox"]:checked ~ .label .fa-times {
-        display: inline-block;
-    }
-      
-    input[type="checkbox"]:checked ~ .fa-bars {
-        display: none;
-    }
-
-    input[type="checkbox"]:checked ~ nav ul {
-        height: 224px;
-        width: 100%;
-        background-color: #0000EC;
-        transition: height 1s ease-in-out;
-    }
-
-    input[type="checkbox"]:not(:checked) ~ .fa-bars{
-        display: block;
-    }
- */
-
-
-
-    .discount-language-coin {
-        display: none;
-    }
-
-    h1 {
-        font-size: 1rem;
-    }
-
-    .logo>img {
-        width: 0.8rem;
-    }
-
-    /* nav {
-        display: none;
-    } */
-
-    /* .fa-bars {
-        display: block;
-    } */
-
+   
     .welcome-container {
         display: flex;
         flex-direction: column;

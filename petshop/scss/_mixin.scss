@@ -1,0 +1,31 @@
+/* @mixin paragraph($size, $l-height, $let-spacing) {
+    font-size: $size;
+    line-height: $l-height;
+    letter-spacing: $let-spacing;
+} */
+
+@mixin logo(){
+    .logo{
+        display: flex;
+        h1, h2{
+            font-size: 1rem;
+            font-weight: 700;
+            color:$tertiary;
+            @media screen and($tablet-breakpoint) {
+                font-size: 1.5rem;
+            }
+        }
+        img{
+            width: 0.8rem;
+            @media screen and($tablet-breakpoint) {
+                width: 1.2rem;
+            }
+        }
+    }
+    .front{
+        color: $secondary;
+    }
+    .cat-dog-foot{
+        color: $primary;
+    }
+}

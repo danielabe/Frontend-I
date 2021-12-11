@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+header{
+    background-color: $primary;
+    div:nth-child(1){
+        display: none;
+        padding: 4px 2.5rem 4px 5.625rem;
+        font-size: 0.625rem;
+        font-weight: 400;
+        background: $bg-information;
+        color: $color-information;
+        @media screen and($tablet-breakpoint) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    div{
+        display: flex;
+        gap: 12px;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.1875rem 2.5rem 1.1875rem 2.5rem;
+    }
+    @extend %hamburger-menu;
+}
+@include logo();
