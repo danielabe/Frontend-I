@@ -29,3 +29,12 @@
         color: $primary;
     }
 }
+
+@mixin font($pad, $border, $size, $weight, $bg, $color){
+    padding: $pad;
+    border-radius: $border;
+    font-size: $size;
+    font-weight: $weight;
+    background-color: $bg;
+    color: $color;
+}

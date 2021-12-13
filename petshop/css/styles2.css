@@ -2,30 +2,30 @@
 /* Header */
 
 /* Main */
-.main-section {
+/* .main-section {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 409px;
     background: #F0A83E url('../img/bowl-and-pet-daities-on-green-background\ 1.svg') no-repeat;
     background-size: cover;
-}
+} */
 
-.welcome-container {
+/* .welcome-container {
     padding-right: 12px;
     text-align: center;
-}
+} */
 
-.welcome-title {
+/* .welcome-title {
     padding: 0.625rem;
     border-radius: 5px;
     font-size: 1.875rem;
     font-weight: 400;
     background-color: #FFFFFF;
     color: #3C2313;
-}
+} */
 
-.comederos-link {
+/* .comederos-link {
     display: inline-block;
     padding: 0.9375rem 1.4375rem;
     border-radius: 5px;
@@ -33,30 +33,30 @@
     font-weight: 400;
     background: #F0A83E;
     color: #FFFFFF;
-}
+} */
 
-.main-section p {
+/* .main-section p {
     padding: 0.75rem 0;
     font-size: 1rem;
-}
+} */
 
-.destacados-section {
+/* .destacados-section {
     padding: 1.1875rem 3% 0.90625rem;
-}
+} */
 
-.paw-image {
+/* .paw-image {
     display: block;
     margin: 0 auto;
     padding: 0.3125rem;
-}
+} */
 
-.products-title {
+/* .products-title {
     padding: 0.3125rem 0.625rem 0.625rem;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
     color: #3C2313;
-}
+} */
 
 .products-links {
     display: flex;
@@ -288,14 +288,14 @@ footer {
 
 @media screen and (max-width: 768px) {
    
-    .welcome-container {
+   /*  .welcome-container {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         max-width: 95%;
         padding: 0;
     }
-
+ */
     .comederos-link {
         margin-right: 1.5rem;
     }
