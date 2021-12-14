@@ -2,7 +2,6 @@ main{
     .banner{
         display: flex;
         justify-content: center;
-        
         align-items: center;
         height: 409px;
         background: $primary url('../img/bowl-and-pet-daities-on-green-background\ 1.svg') no-repeat;
@@ -31,6 +30,10 @@ main{
             }
             a{
                 @include font(0.9375rem 1.4375rem, 5px, 16px, 400, $primary, $tertiary);
+                margin-right: 1.5rem;
+                @media screen and($tablet-breakpoint) {
+                    margin-right: 0;
+                }
             }
         }
     }
@@ -44,6 +47,44 @@ main{
         h2{
             @include font(0.3125rem 0.625rem 0.625rem, $border, 2.5rem, 700, none, $secondary);
             text-align: center;
+        }
+        &>p{
+            display: flex;
+            justify-content: center;
+            @include font(0.625rem 0.625rem 1.5625rem, $border, 0.9375rem, 400, none, $products);
+            a{
+                padding: 0 15px;
+            }
+        }
+    }
+    .cards-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1.5625rem 0 2.4375rem;
+        gap: 1.25rem;
+        .card {
+            width: 58vw;
+            height: 70vw;
+
+            min-width: 250px;
+            min-height: 312px;
+            text-align: center;
+            background-color: $bg-card;
+            @media screen and($mobile-breakpoint) {
+                width: 25vw;
+                height: 30vw;
+            }
+            img{
+                width: 100%;
+            }
+            .product{
+                color: $secondary;
+            }
+            .price{
+                padding-bottom: 0.35rem;
+                color: $primary;
+            }
         }
     }
 }

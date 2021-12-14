@@ -268,6 +268,13 @@ main .banner div a {
   font-weight: 400;
   background-color: #f0a83e;
   color: #ffffff;
+  margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  main .banner div a {
+    margin-right: 0;
+  }
 }
 
 main .destacados-section {
@@ -288,6 +295,67 @@ main .destacados-section h2 {
   background-color: none;
   color: #3c2313;
   text-align: center;
+}
+
+main .destacados-section > p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.625rem 0.625rem 1.5625rem;
+  border-radius: #786960;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  background-color: none;
+  color: #666666;
+}
+
+main .destacados-section > p a {
+  padding: 0 15px;
+}
+
+main .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1.5625rem 0 2.4375rem;
+  gap: 1.25rem;
+}
+
+main .cards-container .card {
+  width: 58vw;
+  height: 70vw;
+  min-width: 250px;
+  min-height: 312px;
+  text-align: center;
+  background-color: #fbfaf6;
+}
+
+@media screen and (min-width: 580px) {
+  main .cards-container .card {
+    width: 25vw;
+    height: 30vw;
+  }
+}
+
+main .cards-container .card img {
+  width: 100%;
+}
+
+main .cards-container .card .product {
+  color: #3c2313;
+}
+
+main .cards-container .card .price {
+  padding-bottom: 0.35rem;
+  color: #f0a83e;
 }
 
 /* @import "footer"; */
