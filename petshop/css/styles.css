@@ -358,5 +358,91 @@ main .cards-container .card .price {
   color: #f0a83e;
 }
 
+main .contact-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 2rem 0.5rem;
+}
+
+main .contact-section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 450px;
+  padding: 0.4rem 0 0.4rem;
+  color: #3c2313;
+}
+
+main .contact-section form > input {
+  width: 80%;
+}
+
+main .contact-section form h2 {
+  padding: 0 0 15px;
+  border-radius: #786960;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: none;
+  color: none;
+}
+
+main .contact-section .btn-container {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  padding: 2.25rem 0 2.2875rem;
+}
+
+main .contact-section .btn-container input {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: none;
+  background-color: none;
+  color: #ffffff;
+  width: 32%;
+  border: none;
+  cursor: pointer;
+}
+
+main .contact-section .btn-container input[type="reset"] {
+  width: 49%;
+  min-width: 84px;
+  padding: 0.8rem 0.5rem;
+  background-color: #8A8787;
+}
+
+main .contact-section .btn-container input[type="submit"] {
+  width: 49%;
+  min-width: 84px;
+  padding: 0.8rem 0.5rem;
+  background-color: #f0a83e;
+}
+
+main input[placeholder] {
+  padding: 0.875rem;
+  border-radius: 1rem;
+  font-size: 0.625rem;
+  font-weight: none;
+  background-color: #3c2313;
+  color: #ab9c9c;
+  margin: 0.3125rem 0;
+  outline: none;
+  border: none;
+}
+
 /* @import "footer"; */
 /*# sourceMappingURL=styles.css.map */

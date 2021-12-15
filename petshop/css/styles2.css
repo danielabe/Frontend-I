@@ -101,14 +101,14 @@
     color: #F0A83E;
 } */
 
-.contact-section {
+/* .contact-section {
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 2rem 0.5rem;
 }
-
-.contact-form {
+ */
+/* .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,40 +116,41 @@
     max-width: 450px;
     padding: 0.4rem 0 0.4rem;
     color: #3C2313;
-}
+} */
 
-.contact-form>input {
+/* .contact-form>input {
     width: 80%;
-}
+} */
 
-.contact-form h2 {
+/* .contact-form h2 {
     padding: 0 0 15px;
     font-size: 25px;
     font-weight: 700;
-}
+} */
 
-input[placeholder] {
+/* input[placeholder] {
     padding: 0.875rem;
     margin: 0.3125rem 0;
     border-radius: 1rem;
+    font-size: 0.625rem;
     background-color: #3C2313;
     color: #AB9C9C;
     outline: none;
     border: none;
-}
+} */
 
-input[placeholder]::placeholder {
+/* input[placeholder]::placeholder {
     font-size: 0.625rem;
     color: #FFFFFF;
     color: #AB9C9C;
-}
+} */
 
-.btn-container {
+/* .btn-container {
     align-self: stretch;
     padding: 2.25rem 0 2.2875rem;
-}
+} */
 
-input[type="reset"], input[type="submit"] {
+/* input[type="reset"], input[type="submit"] {
     width: 32%;
     padding: 0.5rem;
     border: none;
@@ -157,16 +158,16 @@ input[type="reset"], input[type="submit"] {
     font-size: 1rem;
     color: #FFFFFF;
     cursor: pointer;
-}
+} */
 
-input[type="reset"] {
+/* input[type="reset"] {
     background-color: #8A8787;
 }
 
 input[type="submit"] {
     min-width: 84px;
     background-color: #F0A83E;
-}
+} */
 
 /* Footer */
 footer {
@@ -312,10 +313,10 @@ footer {
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
-    input[type="reset"], input[type="submit"] {
+   /*  input[type="reset"], input[type="submit"] {
         width: 49%;
         padding: 0.8rem 0.5rem;
-    }
+    } */
     .foot-top {
         flex-direction: column;
         padding: 14px 29px 10px 23px;
