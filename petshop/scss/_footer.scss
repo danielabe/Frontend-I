@@ -1,0 +1,97 @@
+footer{
+    background: $secondary;
+    .foot-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        @include font(14px 29px 10px 23px, $border, 1.25rem, 700, $primary, $tertiary);
+        @media screen and($tablet-breakpoint) {
+            flex-direction: row;
+            padding: 10px 47px 10px 23px;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            &::before {
+                content: "\f0e0";
+                @include font(0 0.625rem 0 0, $border,2rem, 400, none, none);
+                font-family: "Font Awesome 5 Free";
+            }
+            @media screen and($tablet-breakpoint) {
+                width: 100%;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 8px 0;
+            gap: 0.5rem;
+            @media screen and($sm-mobile-breakpoint) {
+                flex-direction: row;
+            }
+            input{
+                width: 100%;
+            }
+            &>input[type="text"] {
+                min-width: 147px;
+                max-width: 410px;
+                @include font(0.75rem, 15px,0.625rem, 400, $tertiary, none);
+                outline: none;
+                border: none;
+            }
+        }
+        input::placeholder {
+            color: $color-search;
+        }
+        input[type="submit"] {
+            @include font(0.75rem, 15px,0.625rem, none, $secondary, $tertiary);
+            border: none;
+            cursor: pointer;
+            @media screen and($sm-mobile-breakpoint) {
+                width: 100px;
+                min-width: 100px;
+            }
+        }
+    }
+    .foot-center{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.6rem 4.6rem;
+        @media screen and($tablet-breakpoint) {
+            flex-direction: row;
+        }
+        i{
+            @include font(0.75rem, 50px, 1.875rem, none, $quaternary, $tertiary);
+            border: 5px solid $border;
+        }
+        .location-icon {
+            border: 5px solid $border;
+            padding: 0.75rem 1rem;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            padding: 1.25rem 0;
+            i{
+                margin-right: 25px;
+            }
+            .contact{
+                @include font(0, 0, 1.25rem, 700, none, $tertiary);
+            }
+            .contact-value{
+                @include font(0, 0, 0.625rem, 700, none, $quaternary);
+            }
+        }
+    }
+    &>p{
+        @include font(0.5rem, none, 0.625rem, none, $bg-information, $tertiary);
+        text-align: center;
+    }
+}
