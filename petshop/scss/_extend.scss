@@ -8,11 +8,10 @@
             display: none;
         }
         &:checked ~ nav ul {
-            height: 184px;
+            height: 188px;
             width: 100%;
             background-color: $secondary;
             color: $placeholder-form;
-            /* transition: height 1s ease-in-out; */
         }
     }
     .fa-bars, .fa-times {

@@ -12,11 +12,10 @@ header input[type="checkbox"]:not(:checked) ~ label .fa-times {
 }
 
 header input[type="checkbox"]:checked ~ nav ul {
-  height: 184px;
+  height: 188px;
   width: 100%;
   background-color: #3c2313;
   color: #ab9c9c;
-  /* transition: height 1s ease-in-out; */
 }
 
 header .fa-bars, header .fa-times {
